@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:sans-serif;
+}
+body{
+    height: 100vh;
+}
+
+ul{
+    text-align: center;
+}
+.nav{
+    padding: 10px;
+    position: relative;
+}
+span{
+    background-color:blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+}
+ a{
+    background-color: lightblue;
+    border-radius: 4px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.hero-section {
+    
+    text-align: start; 
+}
+
+.left-div, .right-div {
+    display: inline-block;
+    vertical-align: top; 
+    padding: 2vh 10vw 2vh 10vw;
+    width: 40vw;
+}
+
+.first-heading{
+    line-height: 5vh;
+    color: gray;
+   
+}
+.second-heading{
+    color:#4cb8d4;
+    line-height: 5vh;
+   
+}
+.left-div p{
+    color:gray;
+}
+img{
+    width: 25vw;
+    
+}
+
+

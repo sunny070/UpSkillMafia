@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    
+   
+    line-height: 0.4vh;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: 100vh;
+    
+}
+
+img{
+    width: 50vw;
+}
+button{
+    border:0.1vw solid black;
+    color:#fff;
+    font-size: 2vw;
+    width: 50vw;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 94%);
+    padding: 1vw 5.8vw 1vw 5.7vw;
+}
