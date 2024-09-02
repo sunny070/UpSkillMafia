@@ -1,68 +1,92 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    font-family:sans-serif;
-}
-body{
-    height: 100vh;
+    font-family: sans-serif;
 }
 
-ul{
+ul {
     text-align: center;
 }
-.nav{
-    padding: 10px;
+
+.nav {
+    color: #B1B3B4;
+    padding: 1vh;
     position: relative;
 }
-span{
-    background-color:blue;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 20px;
+
+.nav span {
+    padding-top: 1vh;
+    padding-left: 4vw;
+    float: left;
+    font-size: 3vh;
+    color: #344455;
+    font-weight: 600;
 }
- a{
-    background-color: lightblue;
-    border-radius: 4px;
-    padding: 20px;
+
+a {
+    background-color: #EAF7FF;
+    color: #2DB3FF;
+    font-weight: 600;
+    border-radius: 0.4vw;
+    padding: 2vh 3vw;
+    text-decoration: none;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5vw;
+    top: 1.8vh;
 }
-li{
+
+li {
     display: inline-block;
-    padding: 30px;
+    padding: 3vh;
+    font-size: 2vh;
+}
+
+.first-heading {
+    font-size: 4vh;
+    line-height: 5vh;
+    color: #465864;
+    width: 18vw;
+}
+
+.second-heading {
+    font-size: 4vh;
+    color: #2DB3FF;
+    line-height: 5vh;
+}
+
+.left-div p {
+    color: gray;
+    font-size: 2vh;
+    line-height: 4vh;
+}
+
+.button {
+    background-color: #2DB3FF;
+    border: none;
+    padding: 2vh;
+    border-radius: 0.5vw;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .hero-section {
-    
-    text-align: start; 
+    padding: 0vh 25vw 3vh 25vw;
+    width: 100vw;
+    /* height: 100vh; */
 }
 
-.left-div, .right-div {
-    display: inline-block;
-    vertical-align: top; 
-    padding: 2vh 10vw 2vh 10vw;
-    width: 40vw;
-}
-
-.first-heading{
-    line-height: 5vh;
-    color: gray;
-   
-}
-.second-heading{
-    color:#4cb8d4;
-    line-height: 5vh;
-   
-}
-.left-div p{
-    color:gray;
-}
-img{
+.left-div {
+    padding-top: 7vh;
     width: 25vw;
-    
+    float: left;
 }
 
+.img1 {
+    float: right;
+}
 
+img {
+    width: 25vw;
+}
