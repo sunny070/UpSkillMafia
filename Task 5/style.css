@@ -1,0 +1,103 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 10vh 25vw 10vh 25vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    background: #0BAAFF;
+    height:60vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: #F3FBFF;
+   padding: 10vh 2vw 10vh 2vw;
+   height:60vh ;
+}
+.text{
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    color: #263238;
+}
+h1{
+    font-size: 4vh;
+}
+P{
+    font-size: 2vh;
+}
+.input{
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1vh; */
+    font-size: 1.4vh;
+
+    /* line-height: 3; */
+    /* align-items: center; */
+}
+.input-1, .input-2{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+    color: #263238;
+}
+.input a{
+    text-align: end;
+    text-decoration: none;
+    color: #263238;
+    
+}
+
+ input{
+    border-radius: 1vh;
+    padding: 1.5vh;
+    background-color: #fff;
+    border: none;
+    
+}
+input::placeholder{
+    color: #DBDEE1;
+    font-size: 1.4vh;
+}
+img{
+    height: 30vh;
+    width: 18vw;
+}
+
+button{
+    background-color: #1DAFFF;
+    border: none;
+    padding: 2vh 6vw;
+    border-radius: 1vh;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+.btn{
+    font-size: 1.3vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3vh;
+}
+.btn a{
+    color: #263238;
+    text-decoration: none;
+}
+.btn a span{
+    color: #0BAAFF;
+}
